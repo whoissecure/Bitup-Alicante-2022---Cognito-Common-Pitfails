@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Home for Bitup Alicante PoC</title>
+    </head>
+    <body>
+        <h1>Cognito common pitfails</h1>
+        <ul>
+            <li><form method="post" action="{{ url_for('login') }}"><input type="submit" value="Login" /></form></li>
+            <li><a href="/files?file=lfi.txt">Local File inclusion</a></li>
+            <li><a href="/secret">Emails received</a></li>
+            <li><a href="/admin">Admin checker</a></li>
+        </ul>
+    </body>
+</html>
